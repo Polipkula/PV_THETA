@@ -1,0 +1,9 @@
+1. Otevřete MYSQL a vytvoříte datbázi díky db.sql souboru:
+2. půjdete do cmd 
+3. Zadáte příkazy:
+3.1 cd C:\.....\Theta
+3.2    python -m venv venv         # Vytvoří virtuální prostředí
+3.3    venv\Scripts\activate       # Aktivuje virtuální prostředí (Windows)
+3.4    pip install -r requirements.txt
+4. Poté zadáte příkaz : python -m src.main	#Spuštění celého programu
+5. Program vám dá na výběr ze 6 možností, musíte vložit zákazníky(csv) a produkty(json), poté lze až pracovat s transakcemi
